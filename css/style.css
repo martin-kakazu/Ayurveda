@@ -9,7 +9,7 @@ body {
 }
 
 .nav {
-    background-color: beige;
+    background-image: linear-gradient(beige, gray) ;
     border: 2px inset black;
     position: sticky;
     top: 0;
@@ -21,6 +21,15 @@ body {
     display: inline;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+li {
+    transition: all 1s;
+}
+
+li:hover {
+    background-color: lightgray;
+    font-size: 120%
 }
 
 .menu {
@@ -69,7 +78,6 @@ body {
     margin-left: 100px;
 }
 
-
 #footer {
     margin-top: 50px;
     border-top: 1px double black;
@@ -100,9 +108,14 @@ body {
     }
     .nav {
         display: none;
+        background-image: none;
+        background-color: beige;
     }
     .menu {
         display: inline-block;
+    }
+    .menu:hover {
+        cursor: pointer;
     }
     
 }
