@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Medicina Ayurveda</title>
+</head>
+<body>
+        <nav class="nav">
+            <ul>
+                <li class="nav__element"><a href="index.html">Inicio</a></li>
+                <li class="nav__element"><a href="ayurveda.html">Medicina Ayurveda</a></li>
+                <li class="nav__element"><a href="quiensoy.html">¿Quién soy?</a></li>
+                <li class="nav__element"><a href="blog.html">Blog</a></li>
+                <li class="nav__element"><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <span class="menu nav"><img src="img/menu.png" alt="Menu button" width="40px"></span>
+
+        <main>
+            <form action="enviar.js" method="" enctype="" class="body__form" >
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Martín Kakazu">
+            <br>
+                <label for="email">Correo electrónico</label>
+                <input type="email" name="email" id="email" placeholder="nombre@ejemplo.com">
+            <br>
+                <label for="genero">Pronombre</label>
+                    <select name="genero" id="genero">
+                        <option value="femenino">La/Ella</option>
+                        <option value="masculino">El/Él</option>
+                        <option value="neutro">Le/Elle</option>
+                        <option value="otro">Otro</option>
+                    </select>    
+            <br>
+                <input type="checkbox" name="suscripcion" id="suscripcion">
+                <label for="suscripcion">Deseo suscribirme a la lista de mails</label>
+                <p>¿Algún comentario?</p>
+                <textarea name="comentarios" id="comentarios" cols="40" rows="10" placeholder="Comentarios"></textarea>
+                <hr>
+                <input type="submit" value="Enviar formulario" class="form__button">
+                <input type="reset" value="Limpiar formulario" class="form__button">
+            </form>
+
+            <section class="container">
+                <article class="container__card">
+                    <h3 class="container__card--title">Título 1</h3>
+                    <p class="container__card--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nobis maiores tempore! Hic eveniet laborum vero perferendis assumenda debitis recusandae. Debitis accusantium ipsa provident, ab nam molestiae sequi sit expedita.</p>
+                </article>
+
+                <article class="container__card">
+                    <h3 class="container__card--title">Título 2</h3>
+                    <p class="container__card--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nobis maiores tempore! Hic eveniet laborum vero perferendis assumenda debitis recusandae. Debitis accusantium ipsa provident, ab nam molestiae sequi sit expedita.</p>
+                </article>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <h3 class="footer__element">LOGO</h3>
+            <h3 class="footer__element">RRSS</h3>
+            <h3 class="footer__element">CONTACTO</h3>
+        </footer>
+</body>
+
+</html>
