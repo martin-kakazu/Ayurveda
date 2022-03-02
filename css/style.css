@@ -74,8 +74,10 @@ header {
     body {
         font-size: 125%;
     }
+}
 
 @media (max-width: 420px)  {
     body {
         font-size: 100%;
     }
+}
