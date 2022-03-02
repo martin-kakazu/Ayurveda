@@ -1,41 +1,19 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
 body {
-    background-image: url(https://cdn.dribbble.com/users/2925801/screenshots/14267264/urban_city_-_background_for_video_conferencing_1_4x.jpg) ;
     font-size: 150%;
 }
-
-.nav {
-    background-image: linear-gradient(beige, gray) ;
-    border: 2px inset black;
+ 
+header {
     position: sticky;
     top: 0;
-    margin: 0px 10px 0px 10px;
-    font-style: italic;
 }
 
-.nav__element {
-    display: inline;
-    margin-left: 20px;
-    margin-right: 20px;
-}
 
-li {
-    transition: all 1s;
-}
-
-li:hover {
-    background-color: lightgray;
-    font-size: 120%
-}
-
-.menu {
-    display: none;
-}
-
+/* 
 .container {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -61,9 +39,9 @@ li:hover {
 .container__card--text {
     text-align: justify;
     margin-bottom: 100px;
-}
+} */
 
-.body__form {
+/* .body__form {
     background-color: beige;
     border: 1px solid black;
     border-radius: 21px;
@@ -76,13 +54,10 @@ li:hover {
     font-size: large;
     font-weight: 600;
     margin-left: 100px;
-}
+} */
 
 #footer {
     margin-top: 50px;
-    border-top: 1px double black;
-    background-color: black;
-    color: white;
     text-align: center;
     size: 100vw;
 }
@@ -93,29 +68,14 @@ li:hover {
     font-size: 10px;
 }
 
+
+
 @media (max-width: 768px) {
     body {
         font-size: 125%;
     }
-    .container {
-        grid-template-columns: repeat(1,1fr);
-    }
-}
 
 @media (max-width: 420px)  {
     body {
         font-size: 100%;
     }
-    .nav {
-        display: none;
-        background-image: none;
-        background-color: beige;
-    }
-    .menu {
-        display: inline-block;
-    }
-    .menu:hover {
-        cursor: pointer;
-    }
-    
-}
