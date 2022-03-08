@@ -6,47 +6,10 @@
 body {
     font-size: 150%;
 }
- 
-/* header {
-    position: sticky;
-    top: 0;
-} */
 
-
-/* 
-.container {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-
-.container__card {
-    background-color: beige;
+.body__form {
     border: 1px solid black;
-    padding: 20px;
-    margin: 30px;
-    overflow: hidden;
-    width: 500px;
-    height: 150px;
-    line-height: 1.5;
-}
-
-.container__card--title {
-    text-align: center;
-    font-weight: bold;
-    padding-bottom: 20px;
-}
-
-.container__card--text {
-    text-align: justify;
-    margin-bottom: 100px;
-} */
-
-/* .body__form {
-    background-color: beige;
-    border: 1px solid black;
-    border-radius: 21px;
     padding: 15px;
-    text-align: center;
 }
 
 .form__button {
@@ -54,25 +17,38 @@ body {
     font-size: large;
     font-weight: 600;
     margin-left: 100px;
-} */
+}
 
-#footer {
-    margin-top: 50px;
+.body__whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    background-color: #25d365;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
     text-align: center;
-    size: 100vw;
+    vertical-align: middle;
+    line-height: 40px;
 }
 
-.footer__element {
-    display: inline-block;
-    margin: 20px 50px;
-    font-size: 10px;
+footer {
+    margin-top: 0px;
+    text-align: center;
+    padding: 30px 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
-
-
 
 @media (max-width: 768px) {
     body {
         font-size: 125%;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
     }
 }
 
