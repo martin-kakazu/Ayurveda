@@ -16,21 +16,21 @@ body {
 
 .body__whatsapp {
 position: fixed;
-right: 0;
+right: 10px;
 bottom: $fixed + 100px;
 @extend .buttonTemplate;
 }
     
 .body__twitter { 
     position: fixed;
-    right: 0;
+    right: 10px;
     bottom: $fixed + 50px;
     @extend .buttonTemplate;
 }
     
 .body__instagram {
     position: fixed;
-    right: 0;
+    right: 10px;
     bottom: $fixed;
     @extend .buttonTemplate;
 }
