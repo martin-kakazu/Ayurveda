@@ -2,3 +2,25 @@
     margin: 0;
     padding: 0;
 }
+
+$rrss: (
+     whatsapp: #25d365,
+     twitter: #55acee,
+     instagram: #f12a51,
+);
+
+@each $rs, $color in $rrss {
+    .body__#{$rs} {
+        background-color: $color;
+    }
+}
+
+.buttonTemplate {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    border: 1px solid black;
+}
