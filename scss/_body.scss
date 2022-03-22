@@ -16,27 +16,17 @@ body {
 
 .body__whatsapp {
 position: fixed;
-right: 10px;
-bottom: $fixed + 100px;
+right: 20px;
+bottom: $fixed + 60px;
 @extend .buttonTemplate;
 }
-    
-.body__twitter { 
-    position: fixed;
-    right: 10px;
-    bottom: $fixed + 50px;
-    @extend .buttonTemplate;
-}
-    
+      
 .body__instagram {
     position: fixed;
-    right: 10px;
+    right: 20px;
     bottom: $fixed;
     @extend .buttonTemplate;
 }
-
-
-
 
 @media (max-width: $md) {
     body {
